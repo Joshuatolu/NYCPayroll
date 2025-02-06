@@ -11,7 +11,6 @@ This project is an ETL (Extract, Transform, Load) pipeline designed to process p
 7. How It Works
 8. Archiving Process
 9. Contributing
-10. License
 
 >## Overview
 The NYC Hospital Data Pipeline is built to handle large-scale data processing tasks. It extracts raw data from multiple S3 buckets, performs data cleaning and transformation using AWS Glue, and loads the processed data into a PostgreSQL database. The pipeline also archives source files after processing and generates aggregate tables for business insights.
